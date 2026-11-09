@@ -1,0 +1,17 @@
+{
+  "n_images": 4000,
+  "resolution": 64,
+  "channels": 3,
+  "seed": 42,
+  "origin": "Generado proceduralmente con PIL por el equipo (src/ganverse/dataset.py). No contiene rostros reales ni personajes de terceros.",
+  "license": "CC0 / propiedad del equipo (Cindy Gualim y Gadiel Oca\u00f1a)",
+  "universe": "Glimmerfen: espiritus guardianes elementales de bosque",
+  "elements": [
+    "fuego",
+    "agua",
+    "tierra",
+    "aire",
+    "luz",
+    "sombra"
+  ]
+}

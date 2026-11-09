@@ -1,0 +1,20 @@
+{
+  "name": "stab_spectral_norm",
+  "loss_type": "bce",
+  "normalization": "spectral",
+  "epochs": 45,
+  "batch_size": 128,
+  "latent_dim": 100,
+  "feature_maps": 64,
+  "lr_g": 0.0002,
+  "lr_d": 0.0002,
+  "betas": [
+    0.5,
+    0.999
+  ],
+  "n_critic": 1,
+  "lambda_gp": 10.0,
+  "seed": 2026,
+  "fixed_noise_n": 16,
+  "snapshot_every": 3
+}

@@ -1,0 +1,79 @@
+{
+  "conditional": {
+    "n_per_class": 100,
+    "seed": 123,
+    "hit_rate_per_element": {
+      "fuego": 1.0,
+      "agua": 1.0,
+      "tierra": 1.0,
+      "aire": 1.0,
+      "luz": 1.0,
+      "sombra": 1.0
+    },
+    "overall_hit_rate": 1.0,
+    "confusion_matrix": {
+      "fuego": {
+        "fuego": 100,
+        "agua": 0,
+        "tierra": 0,
+        "aire": 0,
+        "luz": 0,
+        "sombra": 0
+      },
+      "agua": {
+        "fuego": 0,
+        "agua": 100,
+        "tierra": 0,
+        "aire": 0,
+        "luz": 0,
+        "sombra": 0
+      },
+      "tierra": {
+        "fuego": 0,
+        "agua": 0,
+        "tierra": 100,
+        "aire": 0,
+        "luz": 0,
+        "sombra": 0
+      },
+      "aire": {
+        "fuego": 0,
+        "agua": 0,
+        "tierra": 0,
+        "aire": 100,
+        "luz": 0,
+        "sombra": 0
+      },
+      "luz": {
+        "fuego": 0,
+        "agua": 0,
+        "tierra": 0,
+        "aire": 0,
+        "luz": 100,
+        "sombra": 0
+      },
+      "sombra": {
+        "fuego": 0,
+        "agua": 0,
+        "tierra": 0,
+        "aire": 0,
+        "luz": 0,
+        "sombra": 100
+      }
+    }
+  },
+  "baseline_unconditional": {
+    "n_samples": 600,
+    "seed": 123,
+    "natural_rate_per_element": {
+      "fuego": 0.15666666666666668,
+      "agua": 0.095,
+      "tierra": 0.27,
+      "aire": 0.18833333333333332,
+      "luz": 0.13833333333333334,
+      "sombra": 0.15166666666666667
+    },
+    "overall_hit_rate_if_requested": 0.16666666666666666
+  },
+  "success_criterion": "hit_rate >= 0.80 por elemento, definido antes de entrenar"
+}
